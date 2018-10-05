@@ -3,7 +3,7 @@
 <html>
 <head>
 
-  
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,11 +20,11 @@
     {% endif %}
 </head>
 <body>
-    
+
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'register' %}">Collapp</a>
+          <a class="navbar-brand mr-4" href="{% url 'register' %}">Colapp</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,7 +39,7 @@
                 <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
                 <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
               {% else %}
-              
+
                 <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
                 <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
               {% endif %}
@@ -48,10 +48,10 @@
         </div>
       </nav>
     </header>
-    
+
     <main role="main" class="container">
       <div class="row">
-        <p align = 'right'> 
+        <p align = 'right'>
         <div class="col-md-8">
           {% if messages %}
             {% for message in messages %}
@@ -65,10 +65,10 @@
       </p>
     </div>
         <div class="col-md-4">
-          
+
       </div>
     </main>
-  
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
